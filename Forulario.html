@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <form action=""Method="POST">
+        <form action="/" method="POST">
              <h1>Mi formulario de Registro</h1> 
              <label for="nombre">Nombre:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <input type="text" id="nombre" name="nombre">
@@ -44,19 +44,19 @@
              <br>
              <label for="desc">Una breve descripción de ti:</label>
              <br>
-             <textarea id="desc" name="descripcion" id="select" cols="30" rows="5"></textarea>
+             <textarea id="desc" name="descripcion" cols="30" rows="5"></textarea>
              <br>
              <br>
-             <label for="lenguajes">Lenguaje:</label>
-             <select name="lenguajes" name="lenguajes">
-                <option value="0">Seleccione lenguaje</option>
+             <label for="lenguajes">Seleccione lenguaje:</label>
+             <select id="lenguajes" name="lenguajes">
+                <option value="0">Lenguaje...</option>
                 <option value="1">HTML</option>
                 <option value="2">CSS</option>
                 <option value="3">JavaScript</option>
              </select>
              <br>
              <br>
-             <input type="button" value="Enviar...">
+             <input type="submit" value="Enviar...">
         </form>     
     </div>
 </body>
